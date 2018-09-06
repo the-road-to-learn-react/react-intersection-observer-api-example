@@ -4,6 +4,8 @@
 
 A simple application that showcases how [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) can be used in React with [createRef()](https://reactjs.org/docs/refs-and-the-dom.html). Use case: observe sections in an article and track the current viewed section in a navigation. [Read more about it](https://www.robinwieruch.de/react-intersection-observer-api).
 
+![sep-06-2018 11-34-11](https://user-images.githubusercontent.com/2479967/45150340-eac42280-b1cb-11e8-9432-5d0324dad237.gif)
+
 ## Features
 
 * intersection observer API
