@@ -11,6 +11,11 @@ const Navigation = styled.nav`
   margin: 30px;
 `;
 
+const Article = styled.div`
+  overflow-y: scroll;
+  height: 100vh;
+`;
+
 const Anchor = styled.a`
   display: block;
   margin-bottom: 10px;
@@ -23,11 +28,6 @@ const Anchor = styled.a`
           font-weight: bold;
         `
       : null};
-`;
-
-const Scrollable = styled.div`
-  overflow-y: scroll;
-  height: 100vh;
 `;
 
 class App extends Component {
@@ -112,7 +112,7 @@ class App extends Component {
           ))}
         </Navigation>
 
-        <Scrollable ref={this.rootRef}>
+        <Article ref={this.rootRef}>
           {this.state.things.map(thing => (
             <div
               key={thing.id}
@@ -123,7 +123,7 @@ class App extends Component {
               <p>{thing.text}</p>
             </div>
           ))}
-        </Scrollable>
+        </Article>
       </Horizontal>
     );
   }
