@@ -9,7 +9,7 @@ A simple application that showcases how [Intersection Observer API](https://deve
 ## Features
 
 * intersection observer API
-* React's createRef to reference DOM nodes
+* React's ref API with createRef() to reference DOM nodes
 * intersection observer API polyfill for browsers/testing
 
 ## Installation
